@@ -22,6 +22,11 @@
   + 각각을 살핀 후에 ```if```문 내에 함수를 다시 **recursion** 하는 코드를 넣어줘야한다.
 + ```cnt```값을 이용해서 서로 다른 블록으로 지정할 수 있다.
 
+##### [전광판]([https://www.softeer.ai/practice/info.do?idx=1&eid=408&sw_prbl_sbms_sn=181201](https://www.softeer.ai/practice/info.do?idx=1&eid=624))
++ 제출답안 : [전광판.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/%EC%A0%84%EA%B4%91%ED%8C%90.py)
++ 21년 재직자 대회 예선 문제
++ 숫자들을 모두 ```dictionary```로 미리 설정해서 저장하는 것이 편하다
+  + ```\```를 이용해서 여러줄로 나눠서 코드를 작성하는 것이 가독성과 찾기에 편하다.
 
 #### Level 3
 ***
