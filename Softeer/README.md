@@ -40,6 +40,11 @@
   + ```1 2 3 4```같은 input을 받으면 ```A```는 **list**형태로 저장된다. 
   + ```A```는 ```['1', '2', '3', '4']```로 저장된다. 
 
+##### [GBC](https://www.softeer.ai/practice/info.do?idx=1&eid=584)
++ 제출답안 : [GBC.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/Level%202/GBC.py)
++ 각각의 구간을 ```section = [list(map(int, input().split())) for _ in range(N)]``` method를 이용하여 저장했다.
++ ```pop``` method를 이용해서 이미 확인한 구간을 날려버리고, 새롭게 구간을 저장하는 것이 **key** 였다.
+
 
 
 #### Level 3
