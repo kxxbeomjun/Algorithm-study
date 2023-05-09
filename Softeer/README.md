@@ -12,3 +12,7 @@
 
 #### Level 3
 ***
+##### [8단 변속기](https://www.softeer.ai/practice/info.do?idx=1&eid=408&sw_prbl_sbms_sn=181201)
++ 제출답안 : [8단 변속기.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/8%EB%8B%A8%20%EB%B3%80%EC%86%8D%EA%B8%B0.py)
++ 오름/내림 차순을 판단하는 문제
++ ```list```로 input을 받아서 ```sorted(list)```함수로 오름/내림 차순인지 판단
