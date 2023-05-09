@@ -28,5 +28,12 @@
 + 숫자들을 모두 ```dictionary```로 미리 설정해서 저장하는 것이 편하다
   + ```\```를 이용해서 여러줄로 나눠서 코드를 작성하는 것이 가독성과 찾기에 편하다.
 
+##### [회의실 예약](https://www.softeer.ai/practice/info.do?idx=1&eid=626)
++ 제출답안 : [회의실 예약.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/%ED%9A%8C%EC%9D%98%EC%8B%A4%20%EC%98%88%EC%95%BD.py)
++ 21년 재직자 대회 예선 문제, 출력 조건이 매우 까다로웠다.
++ ```dictionary[key] = [[i,i+1] for i in range(9,18)]```를 활용하면 시간대별로 default 값을 저장할 수 있다.
+
+
+
 #### Level 3
 ***
