@@ -9,10 +9,19 @@
 + Python 시간초과를 해결하기 위해서는 ```input()``` 대신 ```sys.stdin.readline()``` 사용하기
 + ```while``` loop 보다는 ```for``` 문에서의 break가 메모리를 더 절약한다.
 
-
-#### Level 3
-***
 ##### [8단 변속기](https://www.softeer.ai/practice/info.do?idx=1&eid=408&sw_prbl_sbms_sn=181201)
 + 제출답안 : [8단 변속기.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/8%EB%8B%A8%20%EB%B3%80%EC%86%8D%EA%B8%B0.py)
 + 오름/내림 차순을 판단하는 문제
 + ```list```로 input을 받아서 ```sorted(list)```함수로 오름/내림 차순인지 판단
+
+##### [장애물 인식 프로그램](https://www.softeer.ai/practice/info.do?idx=1&eid=409&sw_prbl_sbms_sn=181207)
++ 제출답안 : [장애물 인식 프로그램.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/%EC%9E%A5%EC%95%A0%EB%AC%BC%20%EC%9D%B8%EC%8B%9D%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8.py)
++ 엄청 엄청... 오래 풀었던 2차원 배열 문제
++ 내 코드내 ```makebuilding```이라는 함수에서 ```elif```가 아닌 ```if```문 만을 이용해야만 상하좌우 모두를 살핀다.
+  + ```elif```를 사용하면 상하좌우 중 하나만 살피고 나머지에 대해서는 살피지 않는다.. elif의 특성
+  + 각각을 살핀 후에 ```if```문 내에 함수를 다시 **recursion** 하는 코드를 넣어줘야한다.
++ ```cnt```값을 이용해서 서로 다른 블록으로 지정할 수 있다.
+
+
+#### Level 3
+***
