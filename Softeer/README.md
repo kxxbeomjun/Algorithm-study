@@ -33,6 +33,13 @@
 + 21년 재직자 대회 예선 문제, 출력 조건이 매우 까다로웠다.
 + ```dictionary[key] = [[i,i+1] for i in range(9,18)]```를 활용하면 시간대별로 default 값을 저장할 수 있다.
 
+##### [비밀메뉴](https://www.softeer.ai/practice/info.do?idx=1&eid=623&sw_prbl_sbms_sn=181299)
++ 제출답안 : [비밀메뉴.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/%EB%B9%84%EB%B0%80%EB%A9%94%EB%89%B4.py)
++ 21년 재직자 대회 예선 문제
++ ```A = input().split()```의 형에 대한 이해
+  + ```1 2 3 4```같은 input을 받으면 ```A```는 **list**형태로 저장된다. 
+  + ```A```는 ```['1', '2', '3', '4']```로 저장된다. 
+
 
 
 #### Level 3
