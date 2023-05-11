@@ -50,4 +50,4 @@
 #### [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943?language=cpp)
 + 제출답안 : [콜라츠 추측](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1.cpp)
 + **삼항 연산자**의 구성 ```(condition) ? (value_if_true) : (value_if_false)```
-  + 위 구조에서 condition은 조건을 나타내는 표현식이고, 이 값이 참(true)이면 value_if_true가 반환되고, 거짓(false)이면 value_if_false가 반환된다.
+  + condition은 조건을 나타내는 표현식, 이 값이 참(true)이면 value_if_true가 반환, 거짓(false)이면 value_if_false가 반환
