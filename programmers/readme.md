@@ -47,6 +47,7 @@
     + 예시: float num = stof("1.23");
   + ```stoi```: 문자열을 int 형태로 변환하는 함수 ```<string>``` 헤더 파일에 선언
     + 예시: int num = stoi("123");
+  + ```to_string()```: ```int```를 ```string```자료형으로 변환
 
 #### [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943?language=cpp)
 + 제출답안 : [콜라츠 추측](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1.cpp)
