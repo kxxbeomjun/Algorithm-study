@@ -14,6 +14,7 @@
   + ```begin()```: vector의 첫 번째 원소를 가리키는 반복자를 반환합니다.
   + ```end()```: vector의 마지막 원소 다음을 가리키는 반복자를 반환합니다.
   + ```at()```: 인덱스를 이용하여 vector의 원소에 접근합니다.
++ **C++** 에서는 ```if / for / while```문 뒤에 ```()```로 조건을 표시한다.
 
 
 #### [문자열 내 p와 y의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/12916)
