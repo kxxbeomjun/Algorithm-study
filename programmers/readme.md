@@ -37,15 +37,11 @@
 #### [문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925?language=cpp)
 + 제출답안 : [문자열을 정수로 바꾸기.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20%EC%A0%95%EC%88%98%EB%A1%9C%20%EB%B0%94%EA%BE%B8%EA%B8%B0.cpp)
 + 자료형을 변형해주는 함수는 다양하다.
-  + ```atoi```: 문자열을 정수로 변환하는 함수 ```<cstdlib>``` 헤더 파일에 선언
-    + 예시: int num = atoi("123");
-  + ```atof```: 문자열을 실수로 변환하는 함수 ```<cstdlib>``` 헤더 파일에 선언
-    + 예시: double num = atof("1.23");
-  + ```stod```: 문자열을 double 형태로 변환하는 함수 ```<string>``` 헤더 파일에 선언
+  + ```stod```: ```string```을 ```double``` 형태로 변환하는 함수 ```<string>``` 헤더 파일에 선언
     + 예시: double num = stod("1.23");
-  + ```stof```: 문자열을 float 형태로 변환하는 함수 ```<string>``` 헤더 파일에 선언
+  + ```stof```: ```string```을 ```float``` 형태로 변환하는 함수 ```<string>``` 헤더 파일에 선언
     + 예시: float num = stof("1.23");
-  + ```stoi```: 문자열을 int 형태로 변환하는 함수 ```<string>``` 헤더 파일에 선언
+  + ```stoi```: ```string```을 ```int``` 형태로 변환하는 함수 ```<string>``` 헤더 파일에 선언
     + 예시: int num = stoi("123");
   + ```to_string()```: ```int```를 ```string```자료형으로 변환
 
