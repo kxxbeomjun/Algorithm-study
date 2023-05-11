@@ -4,5 +4,5 @@
 #### [Softeer](https://github.com/kxxbeomjun/Algorithm-study/tree/main/Softeer) 
 + Python
 
-#### [Programmers](https://github.com/kxxbeomjun/Algorithm-study/tree/main/Programmers)
+#### [Programmers](https://github.com/kxxbeomjun/Algorithm-study/tree/main/programmers)
 + C++
