@@ -55,6 +55,7 @@
 + ```#include <algorithm>```의 key method
   + ```sort()```: 벡터나 배열 등의 컨테이너를 정렬
   + ```min()```: 두 값 중에서 작은 값을 반환
+    + ```min_element(array.begin(),array.end())```: array에서 가장 작은 값을 반환 
   + ```max()```: 두 값 중에서 큰 값을 반환
   + ```find()```: 주어진 값이 컨테이너에 있는지 검사하고, 해당 값을 가진 원소의 iterator를 반환
   + ```reverse()```: 벡터나 배열 등의 컨테이너를 역순으로 뒤집는다
