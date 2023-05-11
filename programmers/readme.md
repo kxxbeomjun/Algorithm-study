@@ -46,6 +46,17 @@
   + ```to_string()```: ```int```를 ```string```자료형으로 변환
 
 #### [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943?language=cpp)
-+ 제출답안 : [콜라츠 추측](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1.cpp)
++ 제출답안 : [콜라츠 추측.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1.cpp)
 + **삼항 연산자**의 구성 ```(condition) ? (value_if_true) : (value_if_false)```
   + condition은 조건을 나타내는 표현식, 이 값이 참(true)이면 value_if_true가 반환, 거짓(false)이면 value_if_false가 반환
+
+#### [나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910?language=cpp)
++ 제출답안 : [나누어 떨어지는 숫자 배열.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%82%98%EB%88%84%EC%96%B4%20%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%B0%B0%EC%97%B4.cpp)
++ ```#include <algorithm>```의 key method
+  + ```sort()```: 벡터나 배열 등의 컨테이너를 정렬
+  + ```min()```: 두 값 중에서 작은 값을 반환
+  + ```max()```: 두 값 중에서 큰 값을 반환
+  + ```find()```: 주어진 값이 컨테이너에 있는지 검사하고, 해당 값을 가진 원소의 iterator를 반환
+  + ```reverse()```: 벡터나 배열 등의 컨테이너를 역순으로 뒤집는다
+  + ```lower_bound()```: 정렬된 컨테이너에서 특정 값을 찾고, 해당 값을 가진 원소의 iterator를 반환, 만약 해당 값이 없으면, 그 값보다 크거나 같은 값 중에서 가장 작은 값을 가진 iterator를 반환
+  + ```upper_bound()```: lower_bound()와 비슷하지만, 해당 값을 가진 원소가 아니라, 그 값보다 큰 값을 가진 iterator를 반환
