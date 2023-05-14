@@ -29,6 +29,7 @@
   + ```empty()```: vector가 비어있는지 확인
   + ```clear()```: vector의 모든 원소를 제거
   + ```erase()```: vector에서 원소를 제거
+    + ```arr.erase(unique(arr.begin(), arr.end()), arr.end());``` -> C++에서 중복된 요소를 제거하기 위한 흔히 사용되는 패턴 
   + ```begin()```: vector의 첫 번째 원소를 가리키는 반복자를 반환
   + ```end()```: vector의 마지막 원소 다음을 가리키는 반복자를 반환
   + ```at()```: 인덱스를 이용하여 vector의 원소에 접근
