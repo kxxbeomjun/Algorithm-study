@@ -67,3 +67,15 @@
 + C++에서는 string index 접근가능하다.
   + 추가로 ```str.substr(a,b)```통해 string을 slicing 할 수 있다. ```a```는 **시작 index 위치**, ```b```는 **추출할 문자열의 길이**
 + C++에서 정수 나눗셈은 **나머지를 버린다.** ex) ```5/2 = 2```
+
+#### [직사각형 별찍기](https://school.programmers.co.kr/learn/courses/30/lessons/12969?language=cpp)
++ 제출답안 : [직사각형 별찍기.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%EB%B3%84%EC%B0%8D%EA%B8%B0.cpp)
++ ```cin >>```에 대한 이해
+  + C언어의 ```scanf```와 다르게 ```cin```에서는 입력받을 데이터 타입을 알려주는 **서식 문자열 %d, %c같은 것이 필요 없다.**
+  + 또 주소를 나타내는 **주소 연산자 &도 필요가 없다.**
++ ```cout <<``` 에 대한 이해
+  + python과 다르게 ```cout```은 **개행문자 ```\n```을 포함하지 않는다.**
+    + 해결방법1 ```cout << "cout 개행1" << "\n";```
+    + 해결방법2 ```cout << "cout 개행2\n";```
+    + 해결방법3 ```cout << "cout 개행3 " << endl;```
+  
