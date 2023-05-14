@@ -17,6 +17,8 @@
 + 제출답안 : [비밀지도.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84.cpp)
 + ```|```는 비트 연산자로 이진법으로 덧셈된 값을 다시 십진법으로 바꾼수 
   + ex) arr1[i]가 5(이진수: 101), arr2[i]가 3(이진수: 011)인 경우, arr1[i] | arr2[i]는 7(이진수: 111)가 된다.
++ ```int/long/longlong```의 차이
+  + **```int```는 10자리, ```long```은 19자리, ```long long```은 그보다 큰 정수**를 다룰때 type 정의 
 
 #### [x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954?language=cpp) 
 + 제출답안 : [x만큼 간격이 있는 n개의 숫자.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90.cpp)
