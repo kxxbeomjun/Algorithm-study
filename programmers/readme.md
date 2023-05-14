@@ -20,6 +20,12 @@
 + ```int/long/longlong```의 차이
   + **```int```는 10자리, ```long```은 19자리, ```long long```은 그보다 큰 정수**를 다룰때 type 정의 
 
+#### [2016년](https://school.programmers.co.kr/learn/courses/30/lessons/12901)
++ 제출답안 : [2016년.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/2016%EB%85%84.cpp)
++ 문자열, 정수 배열의 길이를 미리 지정해서 저장 가능
+  + ```string day[7] = {"FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"};```
+  + ```int month[13] = {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};```
+
 #### [x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954?language=cpp) 
 + 제출답안 : [x만큼 간격이 있는 n개의 숫자.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90.cpp)
 + ```vector``` 클래스의 주요한 method -> vector 클래스는 python의 list와 같은 배열 형태
