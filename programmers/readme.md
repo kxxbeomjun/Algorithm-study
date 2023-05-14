@@ -2,6 +2,17 @@
 **C++ 언어를 이용하여, 코딩 테스트를 준비하면서 기초 문법부터 기억할 내용까지 적어보았다.**
 ***
 
+#### [직사각형 별찍기](https://school.programmers.co.kr/learn/courses/30/lessons/12969?language=cpp)
++ 제출답안 : [직사각형 별찍기.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%EB%B3%84%EC%B0%8D%EA%B8%B0.cpp)
++ ```cin >>```에 대한 이해
+  + C언어의 ```scanf```와 다르게 ```cin```에서는 입력받을 데이터 타입을 알려주는 **서식 문자열 %d, %c같은 것이 필요 없다.**
+  + 또 주소를 나타내는 **주소 연산자 &도 필요가 없다.**
++ ```cout <<``` 에 대한 이해
+  + python과 다르게 ```cout```은 **개행문자 ```\n```을 포함하지 않는다.**
+    + 해결방법1 ```cout << "cout 개행1" << "\n";```
+    + 해결방법2 ```cout << "cout 개행2\n";```
+    + 해결방법3 ```cout << "cout 개행3 " << endl;```
+
 
 #### [x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954?language=cpp) 
 + 제출답안 : [x만큼 간격이 있는 n개의 숫자.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90.cpp)
@@ -23,6 +34,7 @@
 + ```and / or```은 **C++** 에서는 ```&& / ||``` 로 표현한다.
 + ```if / else if```는 ```{}```로 각각 묶어 가독성과 수정 편리성을 높인다.
 
+
 #### [정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
 + 제출답안 : [정수 제곱근 판별.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%A0%95%EC%88%98%20%EC%A0%9C%EA%B3%B1%EA%B7%BC%20%ED%8C%90%EB%B3%84.cpp)
 + ```#include <cmath>```헤더 파일 통해서 계산 시간을 줄일 수 있다.
@@ -33,6 +45,7 @@
   + ```tan(x)```: x의 탄젠트 값을 반환 (x는 라디안)
   + ```log(x)```: x의 자연로그 값을 반환
   + ```exp(x)```: e의 x 거듭제곱을 반환
+
 
 #### [문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925?language=cpp)
 + 제출답안 : [문자열을 정수로 바꾸기.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20%EC%A0%95%EC%88%98%EB%A1%9C%20%EB%B0%94%EA%BE%B8%EA%B8%B0.cpp)
@@ -45,10 +58,12 @@
     + 예시: int num = stoi("123");
   + ```to_string()```: ```int```를 ```string```자료형으로 변환
 
+
 #### [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943?language=cpp)
 + 제출답안 : [콜라츠 추측.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1.cpp)
 + **삼항 연산자**의 구성 ```(condition) ? (value_if_true) : (value_if_false)```
   + condition은 조건을 나타내는 표현식, 이 값이 참(true)이면 value_if_true가 반환, 거짓(false)이면 value_if_false가 반환
+
 
 #### [나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910?language=cpp)
 + 제출답안 : [나누어 떨어지는 숫자 배열.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%82%98%EB%88%84%EC%96%B4%20%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%B0%B0%EC%97%B4.cpp)
@@ -68,14 +83,5 @@
   + 추가로 ```str.substr(a,b)```통해 string을 slicing 할 수 있다. ```a```는 **시작 index 위치**, ```b```는 **추출할 문자열의 길이**
 + C++에서 정수 나눗셈은 **나머지를 버린다.** ex) ```5/2 = 2```
 
-#### [직사각형 별찍기](https://school.programmers.co.kr/learn/courses/30/lessons/12969?language=cpp)
-+ 제출답안 : [직사각형 별찍기.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%EB%B3%84%EC%B0%8D%EA%B8%B0.cpp)
-+ ```cin >>```에 대한 이해
-  + C언어의 ```scanf```와 다르게 ```cin```에서는 입력받을 데이터 타입을 알려주는 **서식 문자열 %d, %c같은 것이 필요 없다.**
-  + 또 주소를 나타내는 **주소 연산자 &도 필요가 없다.**
-+ ```cout <<``` 에 대한 이해
-  + python과 다르게 ```cout```은 **개행문자 ```\n```을 포함하지 않는다.**
-    + 해결방법1 ```cout << "cout 개행1" << "\n";```
-    + 해결방법2 ```cout << "cout 개행2\n";```
-    + 해결방법3 ```cout << "cout 개행3 " << endl;```
+
   
