@@ -13,6 +13,10 @@
     + 해결방법2 ```cout << "cout 개행2\n";```
     + 해결방법3 ```cout << "cout 개행3 " << endl;```
 
+#### [비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
++ 제출답안 : [비밀지도.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84.cpp)
++ ```|```는 비트 연산자로 이진법으로 덧셈된 값을 다시 십진법으로 바꾼수 
+  + ex) arr1[i]가 5(이진수: 101), arr2[i]가 3(이진수: 011)인 경우, arr1[i] | arr2[i]는 7(이진수: 111)가 된다.
 
 #### [x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954?language=cpp) 
 + 제출답안 : [x만큼 간격이 있는 n개의 숫자.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90.cpp)
@@ -57,6 +61,7 @@
   + ```stoi```: ```string```을 ```int``` 형태로 변환하는 함수 ```<string>``` 헤더 파일에 선언
     + 예시: int num = stoi("123");
   + ```to_string()```: ```int```를 ```string```자료형으로 변환
+    + 예시: str += to_string(int)
 
 
 #### [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943?language=cpp)
@@ -68,7 +73,7 @@
 #### [나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910?language=cpp)
 + 제출답안 : [나누어 떨어지는 숫자 배열.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%82%98%EB%88%84%EC%96%B4%20%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%B0%B0%EC%97%B4.cpp)
 + ```#include <algorithm>```의 key method
-  + ```sort()```: 벡터나 배열 등의 컨테이너를 정렬
+  + ```sort()```: 벡터나 배열 등의 컨테이너를 정렬 (오름차순으로)
   + ```min()```: 두 값 중에서 작은 값을 반환
     + ```min_element(array.begin(),array.end())```: array에서 가장 작은 값을 반환 
   + ```max()```: 두 값 중에서 큰 값을 반환
