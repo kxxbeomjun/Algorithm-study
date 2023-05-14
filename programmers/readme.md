@@ -61,3 +61,9 @@
   + ```reverse()```: 벡터나 배열 등의 컨테이너를 역순으로 뒤집는다
   + ```lower_bound()```: 정렬된 컨테이너에서 특정 값을 찾고, 해당 값을 가진 원소의 iterator를 반환, 만약 해당 값이 없으면, 그 값보다 크거나 같은 값 중에서 가장 작은 값을 가진 iterator를 반환
   + ```upper_bound()```: lower_bound()와 비슷하지만, 해당 값을 가진 원소가 아니라, 그 값보다 큰 값을 가진 iterator를 반환
+
+#### [가운데 글자 가져오기](https://school.programmers.co.kr/learn/courses/30/lessons/12903?language=cpp)
++ 제출답안 : [가운데 글자 가져오기.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EA%B0%80%EC%9A%B4%EB%8D%B0%20%EA%B8%80%EC%9E%90%20%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0.cpp)
++ C++에서는 string index 접근가능하다.
+  + 추가로 ```str.substr(a,b)```통해 string을 slicing 할 수 있다. ```a```는 **시작 index 위치**, ```b```는 **추출할 문자열의 길이**
++ C++에서 정수 나눗셈은 **나머지를 버린다.** ex) ```5/2 = 2```
