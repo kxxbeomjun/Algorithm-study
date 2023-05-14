@@ -76,6 +76,7 @@
 + 제출답안 : [나누어 떨어지는 숫자 배열.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%82%98%EB%88%84%EC%96%B4%20%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%B0%B0%EC%97%B4.cpp)
 + ```#include <algorithm>```의 key method
   + ```sort()```: 벡터나 배열 등의 컨테이너를 정렬 (오름차순으로)
+    + cf) ```sort(arr.rbegin(), arr.rend());``` => 내림차순으로 정렬
   + ```min()```: 두 값 중에서 작은 값을 반환
     + ```min_element(array.begin(),array.end())```: array에서 가장 작은 값을 반환 
   + ```max()```: 두 값 중에서 큰 값을 반환
