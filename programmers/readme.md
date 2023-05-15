@@ -96,7 +96,12 @@
 + 제출답안 : [가운데 글자 가져오기.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EA%B0%80%EC%9A%B4%EB%8D%B0%20%EA%B8%80%EC%9E%90%20%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0.cpp)
 + C++에서는 string index 접근가능하다.
   + 추가로 ```str.substr(a,b)```통해 string을 slicing 할 수 있다. ```a```는 **시작 index 위치**, ```b```는 **추출할 문자열의 길이**
-+ C++에서 정수 나눗셈은 **나머지를 버린다.** ex) ```5/2 = 2```
++ C++에서 정수 나눗셈은 **나머지를 버린다.** ex) ```5/2 = 2```'
+
+#### [명예의 전당.cpp](https://school.programmers.co.kr/learn/courses/30/lessons/138477)
++ 제출답안 : [명예의 전당.cpp](https://github.com/kxxbeomjun/Algorithm-study/blob/main/programmers/Level%201/%EB%AA%85%EC%98%88%EC%9D%98%20%EC%A0%84%EB%8B%B9.cpp)
++ **삼항연산자**에 대한 이해 : ```조건식 ? 참일 때의 표현식 : 거짓일 때의 표현식```
+  + 예를들어 문제의 코드는 ```i < k ? answer.push_back(*min_element(temp.begin(), temp.end())) : answer.push_back(temp[temp.size() - k]);``` 로 표현가능
 
 
   
