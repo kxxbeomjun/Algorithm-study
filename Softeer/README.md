@@ -49,3 +49,8 @@
 
 #### Level 3
 ***
+##### [코딩 테스트 세트](https://www.softeer.ai/practice/info.do?idx=1&eid=630)
++ 제출답안 : [코딩 테스트 세트.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/Level%203/%EC%BD%94%EB%94%A9%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%84%B8%ED%8A%B8.py)
++ 정답설명 : [코딩 테스트 세트 YOUTUBE](https://www.youtube.com/watch?v=-xp1Pc6_lIc)
++ 주어진 input 숫자의 범위가 너무 커서 ```이진 탐색(Binary search)```를 사용해야한다.
+  + 함수안에 함수 return문을 넣어서 계속 절반으로 탐색 범위를 줄이는 방법
