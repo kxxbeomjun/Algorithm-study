@@ -54,3 +54,9 @@
 + 정답설명 : [코딩 테스트 세트 YOUTUBE](https://www.youtube.com/watch?v=-xp1Pc6_lIc)
 + 주어진 input 숫자의 범위가 너무 커서 ```이진 탐색(Binary search)```를 사용해야한다.
   + 함수안에 함수 return문을 넣어서 계속 절반으로 탐색 범위를 줄이는 방법
+
+##### [로봇이 지나간 경로](https://www.softeer.ai/practice/info.do?idx=1&eid=577&sw_prbl_sbms_sn=204500)
++ 제출답안 : [로봇이 지나간 경로.py](https://github.com/kxxbeomjun/Algorithm-study/blob/main/Softeer/Level%203/%EB%A1%9C%EB%B4%87%EC%9D%B4%20%EC%A7%80%EB%82%98%EA%B0%84%20%EA%B2%BD%EB%A1%9C.py)
++ 너무너무너무 **오래푼 문제**
++ ```BFS / DFS``` 개념을 사용하는 문제
++ 주석처리까지 잘 써놨으니 꼭 한번 다시 읽어보기
